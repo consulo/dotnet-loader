@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ModuleManager">
+    <modules>
+      <module name="dotnet-loader" dirurl="file://$PROJECT_DIR$">
+        <extension id="x-csharp">
+          <profiles>
+            <profile name="microsoft" active="true" unsafe-code="false" language-version-module-name="" language-version-name="_2_0" />
+            <profile name="mono" active="false" unsafe-code="false" language-version-module-name="" language-version-name="_2_0" />
+          </profiles>
+        </extension>
+        <extension id="x-dotnet">
+          <profiles>
+            <profile name="microsoft" active="true" sdk-module-name="" sdk-name="Microsoft .NET 4.0.30319 (bundled)" target="EXECUTABLE" debug="true" allow-source-roots="false" file-name="microsoft-loader.${output-file-ext}" output-dir="${module-output-dir}" />
+            <profile name="mono" active="false" sdk-module-name="" sdk-name="Mono .NET 2.0" target="EXECUTABLE" debug="true" allow-source-roots="false" file-name="mono-loader.${output-file-ext}" output-dir="${module-output-dir}" />
+          </profiles>
+        </extension>
+        <content url="file://$MODULE_DIR$">
+          <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+        </content>
+        <orderEntry type="module-extension-sdk" extension-id="x-dotnet" />
+        <orderEntry type="sourceFolder" forTests="false" />
+      </module>
+    </modules>
+  </component>
+</project>
+
