@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{B4C4602E-F957-4AA8-BD9B-1A3BE4854BD6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>loader</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>dotnet_loader</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".consulo\.name" />
+    <None Include=".gitignore" />
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\README.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\00\a396936eeba7cc63c5de0d817e8f4bfcfdafef" />
+    <None Include=".git\objects\05\8ab7e25ccf3ee912a7d0643bac58974a26dfad" />
+    <None Include=".git\objects\0d\575c22521f16ad4af0022da02f7ce216d1747f" />
+    <None Include=".git\objects\11\62f43828b56d81d6ec6c5bafc6a04a889f5d9c" />
+    <None Include=".git\objects\35\72571ad83c314471fcf2beec12ffe6c323fdf6" />
+    <None Include=".git\objects\3b\0002030884f78f1562177d81eb2f42c5acbd43" />
+    <None Include=".git\objects\3b\312839bf2e939fea3ebdef15630a4b33e57caf" />
+    <None Include=".git\objects\41\fdaee8ac22ad7dbf20d98b7ad29227e4126274" />
+    <None Include=".git\objects\42\cf1ee7a4eb8b88d9a5764e33e6683aa4e1e5f4" />
+    <None Include=".git\objects\43\f4c96eda6e62d10a7ca7960beb4084fd625b8b" />
+    <None Include=".git\objects\45\62a1544ad5b394f648303d63764bb34c5d0f54" />
+    <None Include=".git\objects\4a\819bbb274732371ddcd77252c65495d4eeeea1" />
+    <None Include=".git\objects\4a\88bd30d6dc1fbb4372baa94a802955d49dbd55" />
+    <None Include=".git\objects\4a\99ca196a3d1e104ae788fdcb00b5344bc82478" />
+    <None Include=".git\objects\7c\549cfd93b8e76903f504f60be4034054299646" />
+    <None Include=".git\objects\81\e5d66156cf9f72ffcb435839926d7af05f50a8" />
+    <None Include=".git\objects\8e\97d1ea51ea2e935c2f9a09feff1cd1b7af1dec" />
+    <None Include=".git\objects\92\2003b8433bcad6ce9778a37628d738faa26389" />
+    <None Include=".git\objects\94\acf28c0773c301f4962f17aa5d75c762f55576" />
+    <None Include=".git\objects\b0\444d5e981e08dbf5d00b045ce594846780ac00" />
+    <None Include=".git\objects\b8\624e14b28959fa45ff27a92ac5de572ec27abc" />
+    <None Include=".git\objects\c5\0fb74ed32a0d2ff521c19e5bb5a0b025a1f79f" />
+    <None Include=".git\objects\de\f6a6a18457989c7d18825c7c1bbfeefc8b261d" />
+    <None Include=".git\objects\df\03c62de9bb8dfc91d63bdff43c0ae32503fcf3" />
+    <None Include=".git\objects\e2\06d70d8595e2a50675ba11de48efcfa012497d" />
+    <None Include=".git\objects\e3\ecb3d3457faa55bd475716d78cf4f02af37e9b" />
+    <None Include=".git\objects\f1\496dcb75cda33f6ae226aec399db54e94f5854" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".consulo\compiler.xml" />
+    <Content Include=".consulo\copyright\profiles_settings.xml" />
+    <Content Include=".consulo\encodings.xml" />
+    <Content Include=".consulo\inspectionProfiles\profiles_settings.xml" />
+    <Content Include=".consulo\inspectionProfiles\Project_Default.xml" />
+    <Content Include=".consulo\misc.xml" />
+    <Content Include=".consulo\modules.xml" />
+    <Content Include=".consulo\scopes\scope_settings.xml" />
+    <Content Include=".consulo\uiDesigner.xml" />
+    <Content Include=".consulo\vcs.xml" />
+    <Content Include=".consulo\workspace.xml" />
+    <Content Include="microsoft\loader.exe" />
+    <Content Include="microsoft\thrift.dll" />
+    <Content Include="mono\loader.exe" />
+    <Content Include="mono\thrift.dll" />
+    <Content Include="out\production\dotnet-loader\microsoft-loader.exe" />
+    <Content Include="out\production\dotnet-loader\microsoft-loader.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include="out\production_resource\dotnet-loader\" />
+    <Folder Include="out\test\dotnet-loader\" />
+    <Folder Include="out\test_resource\dotnet-loader\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
