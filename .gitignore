@@ -3,3 +3,5 @@
 /bin
 /obj
 /out
+/dotnet-loader.suo
+/dotnet-loader2.userprefs
