@@ -13,17 +13,15 @@
           <orderEntry type="sourceFolder" forTests="false" />
           <orderEntry type="module-library">
             <library>
-              <CLASSES>
+              <binaries>
                 <root url="netdll://F:/dotnet-loader/microsoft/thrift.dll!/" />
-              </CLASSES>
-              <DOCUMENTATION />
-              <SOURCES />
+              </binaries>
             </library>
           </orderEntry>
         </module-layer>
         <module-layer name="Mono">
           <extension id="mono-csharp" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
-          <extension id="mono-dotnet" sdk-module-name="" sdk-name="Mono .NET 2.0" target="EXECUTABLE" debug="true" allow-source-roots="false" file-name="${module-name}.${output-file-ext}" output-dir="${module-output-dir}">
+          <extension id="mono-dotnet" sdk-module-name="" sdk-name="Mono .NET 2.0" target="EXECUTABLE" debug="true" allow-source-roots="false" file-name="" output-dir="">
             <define>DEBUG</define>
           </extension>
           <content url="file://$MODULE_DIR$" />
@@ -31,11 +29,9 @@
           <orderEntry type="sourceFolder" forTests="false" />
           <orderEntry type="module-library">
             <library>
-              <CLASSES>
+              <binaries>
                 <root url="netdll://F:/dotnet-loader/mono/thrift.dll!/" />
-              </CLASSES>
-              <DOCUMENTATION />
-              <SOURCES />
+              </binaries>
             </library>
           </orderEntry>
         </module-layer>
