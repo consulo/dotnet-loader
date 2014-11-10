@@ -28,7 +28,7 @@ class ProxyObject : MarshalByRefObject
             return;
         }
 
-        MethodInfo methodInfo = t.GetMethod("Main", BindingFlags.Static | BindingFlags.NonPublic, null, new Type[] { typeof(String[]) }, null);
+        MethodInfo methodInfo = t.GetMethod(method, BindingFlags.Static | BindingFlags.NonPublic, null, new Type[] { typeof(String[]) }, null);
 
         if (methodInfo == null)
         {
