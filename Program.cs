@@ -72,7 +72,7 @@ namespace loader
             String[] parameters = new String[args.Length - 3];
             Array.Copy(args, 3, parameters, 0, parameters.Length);
 
-            String thriftLibrary = AppDomain.CurrentDomain.BaseDirectory + "\\thrift.dll";
+            String thriftLibrary = AppDomain.CurrentDomain.BaseDirectory + Path.DirectorySeparatorChar + "thrift.dll";
 
             proxyObject.Load(thriftLibrary);
             proxyObject.LoadAndCall(mainExecutable, typeName, "Main", new object[] { parameters });           
